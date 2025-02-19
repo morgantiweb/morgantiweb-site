@@ -1,0 +1,15 @@
+/*
+ * Typo
+ */
+
+.title-h1 {
+  @apply font-normal text-gray-900 dark:text-white text-4xl md:text-7xl leading-none;
+}
+
+.subtitle {
+  @apply font-medium text-gray-600 dark:text-gray-400 text-lg md:text-2xl uppercase;
+}
+
+.paragraph {
+  @apply font-normal text-gray-600 dark:text-gray-400 md:text-xl;
+}

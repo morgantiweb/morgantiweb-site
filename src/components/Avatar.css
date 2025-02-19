@@ -1,0 +1,12 @@
+html {
+    --avatar-image-transform: scale(1);
+    --avatar-image-position: absolute;
+    --avatar-image-top: 0;
+    --avatar-image-left: 0;
+    --avatar-image-width: 100%;
+}
+
+.placeholder {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
