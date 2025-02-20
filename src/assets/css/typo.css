@@ -2,8 +2,23 @@
  * Typo
  */
 
+ .title-h1,
+ .title-h2,
+ .title-h3,
+ .title-h4 {
+  @apply text-gray-900 dark:text-white;
+ }
+
 .title-h1 {
-  @apply font-normal text-gray-900 dark:text-white text-4xl md:text-7xl leading-none;
+  @apply font-normal  text-4xl md:text-7xl leading-none;
+}
+
+.title-h2 {
+  @apply font-medium text-3xl md:text-4xl mb-5;
+}
+
+.title-h3 {
+  @apply text-2xl leading-8 font-bold tracking-tight;
 }
 
 .subtitle {
@@ -12,4 +27,15 @@
 
 .paragraph {
   @apply font-normal text-gray-600 dark:text-gray-400 md:text-xl;
+}
+
+.link {
+  @apply text-black hover:text-gray-600 dark:text-white dark:hover:text-gray-400;
+}
+
+.tecnology-tag {
+  @apply mr-2 text-sm font-normal p-1;
+  @apply text-gray-600 dark:text-gray-400;
+  @apply rounded-md;
+  @apply ring-1 ring-zinc-900/5 hover:ring-zinc-900/15 dark:ring-white/10 dark:hover:ring-white/20;
 }

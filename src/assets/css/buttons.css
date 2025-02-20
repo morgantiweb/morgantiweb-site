@@ -1,11 +1,16 @@
 .button {
-    @apply text-gray-600 dark:text-gray-400 font-bold;
-    @apply rounded-md shadow-lg shadow-zinc-800/5 backdrop-blur-sm transition;
-    @apply ring-1 ring-zinc-900/5 hover:ring-zinc-900/15 dark:ring-white/10 dark:hover:ring-white/20;
-    @apply bg-white/90 dark:bg-zinc-800/90;
-    @apply cursor-pointer;
+  @apply text-gray-600 dark:text-gray-400 font-bold;
+  @apply rounded-md shadow-lg shadow-zinc-800/5 backdrop-blur-sm transition;
+  @apply ring-1 ring-zinc-900/5 hover:ring-zinc-900/15 dark:ring-white/10 dark:hover:ring-white/20;
+  @apply bg-white/90 dark:bg-zinc-800/90;
+  @apply cursor-pointer;
 }
 
 .social-icon {
-    @apply w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500;
+  @apply w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500;
+}
+
+.company {
+    @apply rounded-full p-1;
+    @apply ring-1 ring-zinc-900/10 hover:ring-zinc-900/20 dark:ring-white/10 dark:hover:ring-white/20;
 }

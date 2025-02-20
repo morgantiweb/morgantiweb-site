@@ -1,4 +1,19 @@
 {
   "getCV": "CV",
-  "intro": "Ciao, sono appassionato di software e web design, mi piace creare strumenti che rendono più facile la vita delle persone. Sono uno sviluppatore con un forte focus sul design e oltre 20 anni di esperienza nelle creazione di soluzioni digitali innovative. Le mie competenze spaziano dallo sviluppo frontend e full-stack, con particolare attenzione alla creazione di interfaccie utente responsive e ad alte prestazioni."
+  "intro": "Ciao, sono appassionato di software e web design, mi piace creare strumenti che rendono più facile la vita delle persone. Sono uno sviluppatore con un forte focus sul design e oltre 20 anni di esperienza nelle creazione di soluzioni digitali innovative. Le mie competenze spaziano dallo sviluppo frontend e full-stack, con particolare attenzione alla creazione di interfaccie utente responsive e ad alte prestazioni.",
+  "work-experience": "Esperienze lavorative",
+  "present": "Presente",
+  "read-more": "Maggiori dettagli",
+  "deltatre-jobtitle": "Full Stack Developer - Servizi web per lo Sport",
+  "deltatre-jobdesc": "Sviluppo e manutenzione di soluzioni per la gestione di Eventi sportivi per UEFA, per le maggiori leghe calcistiche europee, e di altri siti sportivi internazionali.",
+  "ynap-jobtitle": "Tech Leader - Frontend Web Developer e-commerce di alta moda internazionali",
+  "ynap-jobdesc": "Sviluppo e manutenzione di e-commerce per dunhill.com e maison-alaia.com. Sviluppo di pagine e interfaccie utente responsive e cross-browser, miglioramento delle web performance in partnership con Google.",
+  "euris-jobtitle": "Frontend Web Developer e-commerce di alta moda internazionali",
+  "euris-jobdesc": "Sviluppo e manutenzione di e-commerce per chloe.com, lanvin.com e dunhill.com. Sviluppo di pagine e interfaccie utente responsive e cross-browser.",
+  "mw-jobtitle": "Freelance Web Developer",
+  "mw-jobdesc": "Sviluppo e manutenzione di siti web e portali. Sviluppo con CMS come Wordpress e Joomla e di soluzioni personalizzate in PHP and Javascript. Ottimizzazioni SEO on-site, Web Marketing e Social Marketing. Configurazioni e manutenzioni di soluzioni di Hosting.",
+  "cedac-jobtitle": "Sviluppatore Java junior",
+  "cedac-jobdesc": "Sviluppo in Java, XML, XSL, HTML, CSS e Javascript per applicazioni di Home Banking CBI.",
+  "demsoft-jobtitle": "UX Developer e Game Designer",
+  "demsoft-jobdesc": "Sviluppo e realizzazione di PC Basket 2002 and PC Basket 2003"
 }

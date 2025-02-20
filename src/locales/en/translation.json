@@ -1,4 +1,19 @@
 {
   "getCV": "My CV",
-  "intro": "Hello, I am passionate about software and web design, and I love creating tools that make people’s lives easier. I am developer with a strong eye for design and over 20 years of experience in crafting innovative digital solutions. My expertise spans frontend and full-stack development, with a focus on creating responsive, high-performance user interfaces."
+  "intro": "Hello, I am passionate about software and web design, and I love creating tools that make people’s lives easier. I am developer with a strong eye for design and over 20 years of experience in crafting innovative digital solutions. My expertise spans frontend and full-stack development, with a focus on creating responsive, high-performance user interfaces.",
+  "work-experience": "Work Experiences",
+  "present": "Present",
+  "read-more": "More details",
+  "deltatre-jobtitle": "Full Stack Developer - IT services for Sport Innovations",
+  "deltatre-jobdesc": "Development and maintenance of Events management solutions for UEFA, major European football leagues, and other international sport websites.",
+  "ynap-jobtitle": "Tech Leader - Frontend Web Developer for Luxury Online Flagship Stores",
+  "ynap-jobdesc": "Development and maintenance of dunhill.com and maison-alaia.com e-commerce. Development of web responsive and cross-browser User Interfaces and improve web performance in partnership with Google.",
+  "euris-jobtitle": "Frontend Web Developer for Luxury Online Flagship Stores",
+  "euris-jobdesc": "Development and maintenance of chloe.com, lanvin.com and dunhill.com e-commerce. Development of web responsive and cross-browser.",
+  "mw-jobtitle": "Freelance Web Developer",
+  "mw-jobdesc": "Development and maintenance of web sites and web portals. Development with CMS like Wordpress and Joomla and other custom features and application in PHP and Javascript. SEO on-site optimizations, Web Marketing and Social Marketing. Hosting setup and maintenances.",
+  "cedac-jobtitle": "Java Junior Developer",
+  "cedac-jobdesc": "Development in Java, XML, XSL, HTML, CSS and Javascript for Home Banking CBI applications.",
+  "demsoft-jobtitle": "UX Developer and Game Designer",
+  "demsoft-jobdesc": "Videogame design and development of PC Basket 2002 and PC Basket 2003"
 }
