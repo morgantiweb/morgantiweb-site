@@ -74,9 +74,7 @@ export default function ParticleNetwork() {
     const currentScopeID = ++currentGlobalID;
 
     canvas.current.width = canvas.current.clientWidth;
-    canvas.current.height = window.visualViewport.height; //canvas.current.clientHeight;
-
-    console.log(canvas.current);
+    canvas.current.height = window.visualViewport.height;
 
     const ctx = canvas.current.getContext("2d");
 

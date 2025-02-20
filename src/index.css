@@ -1,7 +1,12 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
 
 @import "./assets/css/typo.css";
 @import "./assets/css/buttons.css";
+
+@theme {
+  --font-sans: InterVariable, sans-serif;
+}
 
 body,
 #container {

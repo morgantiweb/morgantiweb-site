@@ -915,7 +915,7 @@ function Container() {
         </div>
       </footer>
 
-      <script>feather.replace()</script>
+      
     </div>
   );
 }

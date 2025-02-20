@@ -5,3 +5,7 @@
     @apply bg-white/90 dark:bg-zinc-800/90;
     @apply cursor-pointer;
 }
+
+.social-icon {
+    @apply w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500;
+}
