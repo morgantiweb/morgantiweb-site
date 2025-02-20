@@ -27,8 +27,12 @@ const images = [
     alt: "Appennino Trekking",
     classes: "-rotate-2",
   },
-  { src: "slideshow/yoox-03.jpeg", alt: "New Image 1", classes: "-rotate-2" },
-  //   { src: "slideshow/new-image-02.jpeg", alt: "New Image 2", classes: 'rotate-2' },
+  { src: "slideshow/yoox-03.jpeg", alt: "Agile board", classes: "-rotate-2" },
+  {
+    src: "slideshow/trekking-03.jpeg",
+    alt: "Appennino Trekking",
+    classes: "rotate-2",
+  },
 ];
 
 export default function ImageSlider() {
@@ -37,12 +41,14 @@ export default function ImageSlider() {
       <motion.div
         className="flex gap-5"
         initial={{ x: "0%" }}
-        animate={{ x: "-100%" }}
+        animate={{ x: ["0%", "-100%"] }}
         transition={{
           repeat: Infinity,
           ease: "linear",
-          duration: 50, // Tempo di scorrimento
+          duration: 30,
         }}
+        drag="x"
+        // dragConstraints={{ left: -2000, right: 0 }}
       >
         {[...images, ...images].map(
           (

@@ -1,11 +1,12 @@
 import SectionCover from "./sections/SectionCover";
-import ImageSlider from "./ImageCarousel";
+import SectionImageCarousel from "./sections/SectionImageCarousel";
+
 
 function Container() {
   return (
     <>
-      <SectionCover></SectionCover>
-      <ImageSlider />
+      <SectionCover />
+      <SectionImageCarousel />
     </>
   );
 }
