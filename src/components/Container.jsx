@@ -1,10 +1,12 @@
 import SectionCover from "./sections/SectionCover";
+import ImageSlider from "./ImageCarousel";
 
 function Container() {
   return (
-    <div id="container" className="p-8">
+    <>
       <SectionCover></SectionCover>
-    </div>
+      <ImageSlider />
+    </>
   );
 }
 

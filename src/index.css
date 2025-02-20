@@ -8,8 +8,7 @@
   --font-sans: InterVariable, sans-serif;
 }
 
-body,
-#container {
+body {
   @apply bg-white dark:bg-gray-900;
 }
 

@@ -6,7 +6,13 @@ export default function LazyImage(props) {
   return (
     <Imgix
       src={baseUrl + props.fileName}
+      width={props.width ?? undefined}
       sizes={props.sizes} //"(max-width: 600px) 480px, 1024px"
+      srcSet={
+        props.srcSet
+          ? props.srcSet.map((s) => `${baseUrl}${props.fileName}?${s}`)
+          : undefined
+      }
       attributeConfig={{
         loading: "lazy",
       }}
