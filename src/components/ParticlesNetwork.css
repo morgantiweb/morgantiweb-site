@@ -1,0 +1,5 @@
+#particles-network {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0.5;
+}

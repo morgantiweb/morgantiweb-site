@@ -1,7 +1,5 @@
 TODO
 
-- dark mode
-
 - favicon
 - title
 - og:facebook
