@@ -3,6 +3,7 @@
 
 @import "./assets/css/typo.css";
 @import "./assets/css/buttons.css";
+@import "./assets/css/timeline.css";
 
 @theme {
   --font-sans: InterVariable, sans-serif;

@@ -1,0 +1,40 @@
+.timeline-container {
+  transform: translate3d(100%, -50%, 0);
+  align-items: center;
+  @apply fixed flex flex-col pointer-events-none right-1 top-[50%];
+  transition: transform 1s ease-in-out;
+}
+
+.timeline-container.active {
+    transform: translate3d(0, -50%, 0);
+}
+
+.timeline-container:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    @apply dark:bg-white/20 bg-zinc-800/20;
+}
+
+.timeline-work {
+  @apply text-sm font-normal p-1;
+  @apply text-gray-600 dark:text-gray-400;
+  @apply bg-white/100 dark:bg-zinc-800/100 z-10;
+  @apply my-0.5 rounded-md;
+  @apply ring-1 ring-zinc-900/5 hover:ring-zinc-900/15 dark:ring-white/10 dark:hover:ring-white/20;
+  transform: scale(0.75);
+  transition: transform 200ms ease-in-out;
+}
+
+.timeline-work.active {
+  @apply font-bold text-blue-900 dark:text-white;
+  transform: scale(1);
+}
+
+.timeline-dot {
+  content: "";
+  @apply w-[5px] h-[5px] rounded-full my-2 bg-black/15 dark:bg-white/15;
+}
