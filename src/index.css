@@ -4,6 +4,7 @@
 @import "./assets/css/typo.css";
 @import "./assets/css/buttons.css";
 @import "./assets/css/timeline.css";
+@import "./assets/css/scrollbars.css";
 
 @theme {
   --font-sans: InterVariable, sans-serif;

@@ -54,7 +54,7 @@ const works = [
     description: "euris-jobdesc",
     tecnologies: [
       ".NET",
-      "ASP.NET Razor",
+      "ASP.NET",
       "Javascript",
       "jQuery",
       "Typescript",
