@@ -212,6 +212,7 @@ export default function SectionWorks() {
                           srcSet={["w=150&dpr=1 1x,", "w=200&dpr=2 2x,"]}
                           alt={w.companyName}
                           className="company"
+                          title={w.companyName}
                         />
                         <h4 className="title-h4">{w.companyName}</h4>
                         <dl>

@@ -18,6 +18,7 @@ export default function LazyImage(props) {
       }}
       alt={props.alt}
       className={props.className}
+      title={props.title}
     />
   );
 }
