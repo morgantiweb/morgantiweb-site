@@ -1,9 +1,5 @@
 import { useTranslation } from "react-i18next";
-import {
-  AcademicCapIcon,
-  IdentificationIcon,
-  LanguageIcon,
-} from "@heroicons/react/24/outline";
+import { AcademicCapIcon, LanguageIcon } from "@heroicons/react/24/outline";
 
 export default function SectionEducation() {
   const { t } = useTranslation();
@@ -61,8 +57,10 @@ export default function SectionEducation() {
               <li className="py-4 grid grid-cols-2 gap-4">
                 <div>{t("english")}</div>
                 <div>
-                  <strong>B2</strong> {t("reading-ability")}<br />
-                  <strong>B1</strong> {t("writing-ability")}<br />
+                  <strong>B2</strong> {t("reading-ability")}
+                  <br />
+                  <strong>B1</strong> {t("writing-ability")}
+                  <br />
                   <strong>B1</strong> {t("oral-ability")}
                 </div>
               </li>
