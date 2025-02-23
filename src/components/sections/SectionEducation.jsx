@@ -22,7 +22,7 @@ export default function SectionEducation() {
               {t("education")}
             </h3>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-              <li className="py-4 grid grid-cols-[1fr_2fr] gap-4">
+              <li className="skill-intro py-4 grid grid-cols-[1fr_2fr] gap-4">
                 <div>1997 - 2005</div>
                 <div>
                   <strong>{t("computer-science")}</strong>
@@ -30,7 +30,7 @@ export default function SectionEducation() {
                   <i>{t("bologna-university")}</i>
                 </div>
               </li>
-              <li className="py-4 grid grid-cols-[1fr_2fr] gap-4">
+              <li className="skill-intro py-4 grid grid-cols-[1fr_2fr] gap-4">
                 <div>1992 - 1997</div>
                 <div>
                   <strong>{t("diploma")}</strong>
@@ -50,11 +50,11 @@ export default function SectionEducation() {
               {t("languages")}
             </h3>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-              <li className="py-4 grid grid-cols-2 gap-4">
+              <li className="skill-intro py-4 grid grid-cols-2 gap-4">
                 <div>{t("italian")}</div>
                 <div>{t("native-language")}</div>
               </li>
-              <li className="py-4 grid grid-cols-2 gap-4">
+              <li className="skill-intro py-4 grid grid-cols-2 gap-4">
                 <div>{t("english")}</div>
                 <div>
                   <strong>B2</strong> {t("reading-ability")}
