@@ -148,5 +148,8 @@
   "last-update": "Last update",
   "about-this-site": "About this site",
   "about-this-site-intro": "This site was created with React, Tailwind CSS, and Vite. It is hosted on Aruba Spa and uses i18next for internationalization. The content is managed through JSON files and the site is optimized for performance and accessibility.",
-  "source-code": "See the source code on GitHub"
+  "source-code": "See the source code on GitHub",
+  "cookie-banner-text": "This website uses cookies to ensure you get the best experience on our website.",
+  "cookie-banner-accept": "Accept",
+  "cookie-banner-reject": "Reject"
 }

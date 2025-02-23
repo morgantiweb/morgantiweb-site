@@ -148,5 +148,8 @@
   "last-update": "Ultimo aggiornamento",
   "about-this-site": "Informazioni su questo sito",
   "about-this-site-intro": "Questo sito è stato creato con React, Tailwind CSS, and Vite. E' ospitato sui server di Aruba Spa e usa i18next per l'internazionalizzazione. Il contenuto è gestito tramite JSON e il sito è ottimizzato per performance e accessibilità. Le immagini sono fornite da CDN di Imgix.",
-  "source-code": "Vedi il codice sorgente su GitHub"
+  "source-code": "Vedi il codice sorgente su GitHub",
+  "cookie-banner-text": "Questo sito utilizza i cookie per migliorare l'esperienza utente.",
+  "cookie-banner-accept": "Accetto",
+  "cookie-banner-reject": "Rifiuto"
 }
