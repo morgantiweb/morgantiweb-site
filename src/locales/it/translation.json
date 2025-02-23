@@ -1,6 +1,9 @@
 {
   "getCV": "CV",
   "intro": "Ciao, sono appassionato di software e web design, mi piace creare strumenti che rendono più facile la vita delle persone. Sono uno sviluppatore con un forte focus sul design e oltre 20 anni di esperienza nelle creazione di soluzioni digitali innovative. Le mie competenze spaziano dallo sviluppo frontend e full-stack, con particolare attenzione alla creazione di interfaccie utente responsive e ad alte prestazioni.",
+  "works": "Lavori",
+  "skills_short": "Skill",
+  "education_short": "Studi",
   "work-experience": "Esperienze lavorative",
   "present": "Presente",
   "read-more": "Maggiori dettagli",
@@ -140,5 +143,10 @@
   "trekking-intro": "Nel mio tempo libero adoro fare passeggiate e trekking immerso nella bellezza dei parchi naturali vicino a casa.",
   "maps-intro": "Di seguito uno dei giri più belli proprio attorno al mio paese 💚",
   "associationism": "Associazionismo e promozione del territorio",
-  "associationism-intro": "Dal 2012 assieme ad un gruppo di amici gestico l'Associazione Culturale Officina15 APS, circolo ARCI giovanile che ha come obiettivi quelli di promuovere  e rivalutare il territorio dell’Alto Appennino Bolognese, facendo da punto di riferimento e di aggregazione per chi voglia sviluppare le proprie idee artistiche e creative, con un interesse particolare ai nuovi media e alle forme di espressione contemporanee."
+  "associationism-intro": "Dal 2012 assieme ad un gruppo di amici gestico l'Associazione Culturale Officina15 APS, circolo ARCI giovanile che ha come obiettivi quelli di promuovere  e rivalutare il territorio dell’Alto Appennino Bolognese, facendo da punto di riferimento e di aggregazione per chi voglia sviluppare le proprie idee artistiche e creative, con un interesse particolare ai nuovi media e alle forme di espressione contemporanee.",
+  "all-rights-reserved": "Tutti i diritti riservati",
+  "last-update": "Ultimo aggiornamento",
+  "about-this-site": "Informazioni su questo sito",
+  "about-this-site-intro": "Questo sito è stato creato con React, Tailwind CSS, and Vite. E' ospitato sui server di Aruba Spa e usa i18next per l'internazionalizzazione. Il contenuto è gestito tramite JSON e il sito è ottimizzato per performance e accessibilità. Le immagini sono fornite da CDN di Imgix.",
+  "source-code": "Vedi il codice sorgente su GitHub"
 }

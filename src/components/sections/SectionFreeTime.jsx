@@ -27,7 +27,7 @@ export default function SectionFreetime() {
   ];
 
   return (
-    <section ref={sectionRef} className="px-8 py-16 pt-32">
+    <section id="freetime" ref={sectionRef} className="px-8 py-16 pt-32">
       <div className="container max-w-screen-xl mx-auto">
         <h2 className="title-h2 mb-8">{t("free-time")}</h2>
         <p className="paragraph text-md mb-8">{t("free-time-intro")}</p>

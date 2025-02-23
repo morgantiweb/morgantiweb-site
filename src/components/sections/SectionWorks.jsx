@@ -196,7 +196,7 @@ export default function SectionWorks() {
           )
         )}
       </div>
-      <section className="px-8 py-16 pt-32" ref={sectionRef}>
+      <section id="works" className="px-8 py-16 pt-32" ref={sectionRef}>
         <div className="container max-w-screen-xl mx-auto">
           <h2 className="title-h2 mb-8">{t("work-experience")}</h2>
           <div className="space-y-24">

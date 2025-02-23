@@ -655,7 +655,7 @@ export default function SectionSkills() {
   };
 
   return (
-    <section className="px-8 py-16 pt-32">
+    <section id="skills" className="px-8 py-16 pt-32">
       <div className="container max-w-screen-xl mx-auto">
         <h2 className="title-h2 mb-8">{t("skills")}</h2>
         <p className="paragraph text-md mb-8">{t("skills-intro")}</p>

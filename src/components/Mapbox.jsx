@@ -29,7 +29,7 @@ export default function MapboxWidget(props) {
     if (!mapContainerRef.current) return;
 
     const mapboxToken = import.meta.env.VITE_MAPBOX_TOKEN;
-    console.log("Mapbox token:", mapboxToken);
+    
     mapboxgl.accessToken = mapboxToken;
 
     const map = new mapboxgl.Map({

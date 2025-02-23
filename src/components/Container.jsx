@@ -1,3 +1,4 @@
+import Footer from "./sections/Footer";
 import SectionBrands from "./sections/SectionBrands";
 import SectionCover from "./sections/SectionCover";
 import SectionEducation from "./sections/SectionEducation";
@@ -16,7 +17,7 @@ function Container() {
       <SectionSkills />
       <SectionEducation />
       <SectionFreetime />
-      <div style={{ height: "100vh" }}>to be continue...</div>
+      <Footer />
     </>
   );
 }

@@ -63,7 +63,7 @@ export default function SectionBrands() {
   const { t } = useTranslation();
 
   return (
-    <section className="px-8 py-16 pt-32">
+    <section id="brands" className="px-8 py-16 pt-32">
       <div className="container max-w-screen-xl mx-auto">
         <h2 className="title-h2 mb-8">{t("brands")}</h2>
         <p className="paragraph text-md mb-8">{t("brands-intro")}</p>

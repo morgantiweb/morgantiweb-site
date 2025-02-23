@@ -8,14 +8,23 @@
 @import "./assets/css/popup.css";
 @import "./assets/css/skills.css";
 @import "./assets/css/mapbox.css";
+@import "./assets/css/footer.css";
 
 @theme {
   --font-sans: InterVariable, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-white dark:bg-gray-900;
   font-display: swap;
+}
+
+.toc {
+  @apply flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));

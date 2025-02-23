@@ -3,6 +3,6 @@
 }
 
 .popup-content {
-    @apply bg-white dark:bg-gray-800 p-8 rounded-md;
-    @apply rounded-md shadow-lg p-6 w-full max-w-md mx-4;
+    @apply bg-white dark:bg-gray-800 p-8;
+    @apply rounded-md shadow-lg w-full max-w-md mx-4;
 }

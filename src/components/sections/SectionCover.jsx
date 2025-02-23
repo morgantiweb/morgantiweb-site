@@ -26,6 +26,14 @@ function SectionCover() {
             url="https://www.instagram.com/morganti78"
           />
         </div>
+
+        <div className="toc">
+          <a className="link" href="#works">{t("works")}</a>
+          <a className="link" href="#brands">{t("brands")}</a>
+          <a className="link" href="#skills">{t("skills_short")}</a>
+          <a className="link" href="#education">{t("education_short")}</a>
+          <a className="link" href="#freetime">{t("free-time")}</a>
+        </div>
       </div>
     </section>
   );

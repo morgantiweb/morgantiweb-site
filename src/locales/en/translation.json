@@ -1,6 +1,9 @@
 {
   "getCV": "My CV",
   "intro": "Hello, I am passionate about software and web design, and I love creating tools that make people’s lives easier. I am developer with a strong eye for design and over 20 years of experience in crafting innovative digital solutions. My expertise spans frontend and full-stack development, with a focus on creating responsive, high-performance user interfaces.",
+  "works": "Works",
+  "skills_short": "Skills",
+  "education_short": "Education",
   "work-experience": "Work Experiences",
   "present": "Present",
   "read-more": "More details",
@@ -140,5 +143,10 @@
   "trekking-intro": "In my free time, I love going for walks and hiking, immersed in the beauty of the natural parks near my home.",
   "maps-intro": "Below is one of the most beautiful routes right around my town 💚",
   "associationism": "Associationism and promotion of the territory",
-  "associationism-intro": "Since 2012, together with a group of friends, I have been managing the Officina15 APS Cultural Association, a youth ARCI club aimed at promoting and enhancing the territory of the Upper Bolognese Apennines. It serves as a point of reference and gathering for those who want to develop their artistic and creative ideas, with a particular focus on new media and contemporary forms of expression."
+  "associationism-intro": "Since 2012, together with a group of friends, I have been managing the Officina15 APS Cultural Association, a youth ARCI club aimed at promoting and enhancing the territory of the Upper Bolognese Apennines. It serves as a point of reference and gathering for those who want to develop their artistic and creative ideas, with a particular focus on new media and contemporary forms of expression.",
+  "all-rights-reserved": "All rights reserved",
+  "last-update": "Last update",
+  "about-this-site": "About this site",
+  "about-this-site-intro": "This site was created with React, Tailwind CSS, and Vite. It is hosted on Aruba Spa and uses i18next for internationalization. The content is managed through JSON files and the site is optimized for performance and accessibility.",
+  "source-code": "See the source code on GitHub"
 }
