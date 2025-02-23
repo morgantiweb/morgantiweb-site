@@ -5,6 +5,8 @@
 @import "./assets/css/buttons.css";
 @import "./assets/css/timeline.css";
 @import "./assets/css/scrollbars.css";
+@import "./assets/css/popup.css";
+@import "./assets/css/skills.css";
 
 @theme {
   --font-sans: InterVariable, sans-serif;

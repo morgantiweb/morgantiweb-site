@@ -21,6 +21,10 @@
   @apply text-2xl leading-8 font-bold tracking-tight;
 }
 
+.title-h4 {
+  @apply text-xl font-medium;
+}
+
 .subtitle {
   @apply font-medium text-gray-600 dark:text-gray-400 text-lg md:text-2xl uppercase;
 }

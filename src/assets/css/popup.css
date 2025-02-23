@@ -1,0 +1,8 @@
+.popup {
+    @apply fixed inset-0 flex items-center justify-center z-50 bg-black/50;
+}
+
+.popup-content {
+    @apply bg-white dark:bg-gray-800 p-8 rounded-md;
+    @apply rounded-md shadow-lg p-6 w-full max-w-md mx-4;
+}

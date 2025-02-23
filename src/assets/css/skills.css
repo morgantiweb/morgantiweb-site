@@ -1,0 +1,28 @@
+.card {
+  @apply bg-gray-50 dark:bg-gray-800 px-8 py-10 rounded-md;
+}
+
+.skill {
+  @apply mb-4;
+}
+
+.skill-intro {
+  @apply text-sm text-gray-600 dark:text-gray-400 mb-5;
+}
+
+.skill-image {
+  @apply mb-2;
+  filter: saturate(0);
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+
+.skill-image:hover,
+.skill-image:active,
+.skill-image:focus {
+  filter: saturate(1);
+}
+
+.skill-name {
+  @apply text-sm font-medium dark:text-white text-gray-900;
+}

@@ -255,7 +255,7 @@ export default function SectionWorks() {
                         <div className="text-base leading-6 font-medium">
                           <a
                             className="link"
-                            aria-label={`${t("read-more")}: "${"title"}"`}
+                            aria-label={`${t("read-more")}: "${w.title}"`}
                             href={w.companyLink}
                             target="_blank"
                           >
