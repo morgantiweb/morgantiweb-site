@@ -118,5 +118,20 @@
   "ms-word-description": "Un'applicazione di elaborazione testi di Microsoft per la creazione, modifica e collaborazione su documenti.",
   "shopify-description": "Una piattaforma di e-commerce che permette alle aziende di creare e gestire negozi online.",
   "google-drive-description": "Servizio di archiviazione e sincronizzazione di documenti online offerto da Google, con strumenti utili per produttività e la collaborazione.",
-  "open-journal-systems-description": "Una piattaforma open-source per la gestione e pubblicazione di journal e ricerche accademiche."
+  "open-journal-systems-description": "Una piattaforma open-source per la gestione e pubblicazione di journal e ricerche accademiche.",
+  "google-pagespeed-insights-description": "Uno strumento che analizza le performance di pagine web e fornisce suggerimenti per la loro ottimizzazione.",
+  "education-languages": "Formazione e Lingue",
+  "education-languages-intro": "Studi e competenze linguistiche.",
+  "education": "Educazione",
+  "computer-science": "Informatica",
+  "bologna-university": "Università di Bologna",
+  "diploma": "Diploma di Tecnico Commerciale",
+  "high-school": "Istituto superiore \"Caduti della Direttissima\" - Castiglione dei Pepoli (BO)",
+  "languages": "Lingue",
+  "italian": "Italiano",
+  "native-language": "Madrelingua",
+  "english": "Inglese",
+  "reading-ability": "lettura",
+  "writing-ability": "scrittura",
+  "oral-ability": "parlato"
 }

@@ -530,7 +530,14 @@ const skills = [
         image: "CMS/google-analytics.svg",
         description: "google-analytics-description",
         url: "https://analytics.google.com/",
-        classes: "w-10 h-10 mt-2 ml-2",
+        classes: "w-8 h-8 mt-3 ml-3",
+      },
+      {
+        name: "Google Page Speed",
+        image: "CMS/google-pagespeed-insights.svg",
+        description: "google-pagespeed-insights-description",
+        url: "https://pagespeed.web.dev/",
+        classes: "w-8 h-8 mt-3 ml-3",
       },
       {
         name: "Mailchimp",

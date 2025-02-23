@@ -118,5 +118,20 @@
   "ms-word-description": "A word processing application by Microsoft for document creation, editing, and collaboration.",
   "openai-description": "A conversational AI model that assists users in generating text-based responses and content.",
   "google-drive-description": "A cloud storage and file synchronization service by Google, offering productivity tools and collaboration features.",
-  "open-journal-systems-description": "An open-source platform for managing and publishing scholarly journals and academic research."
+  "open-journal-systems-description": "An open-source platform for managing and publishing scholarly journals and academic research.",
+  "google-pagespeed-insights-description": "A tool that analyzes web page performance and provides suggestions for optimization.",
+  "education-languages": "Education & Languages",
+  "education-languages-intro": "Formal education, certifications, and language skills.",
+  "education": "Education",
+  "computer-science": "Computer Science",
+  "bologna-university": "University of Bologna",
+  "diploma": "Diploma of Commercial Technical Expert",
+  "high-school": "\"Caduti della Direttissima\" High School of Castiglione dei Pepoli (BO)",
+  "languages": "Languages",
+  "italian": "Italian",
+  "native-language": "Native language",
+  "english": "English",
+  "reading-ability": "Reading ablity",
+  "writing-ability": "Writing ability",
+  "oral-ability": "Oral expression ability"
 }
