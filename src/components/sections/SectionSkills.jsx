@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const skills = [
   {
@@ -704,6 +705,10 @@ export default function SectionSkills() {
               href={currentSkill.url}
               target="_blank"
             >
+              <ArrowTopRightOnSquareIcon
+                className="inline-block mr-2 align-text-top"
+                width={18}
+              />
               {t("read-more")} →
             </a>
             <div className="mt-8 flex flex-row-reverse">

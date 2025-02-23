@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import LazyImage from "../LazyImage";
 import { useEffect, useRef, useState } from "react";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const works = [
   {
@@ -148,7 +149,7 @@ export default function SectionWorks() {
           }
         });
       },
-      { threshold: 0.50 }
+      { threshold: 0.5 }
     );
 
     const sectionObserver = new IntersectionObserver(
@@ -202,7 +203,12 @@ export default function SectionWorks() {
           <div className="space-y-24">
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
               {works.map((w, i) => (
-                <li key={"work-" + i} className="py-12" data-year={w.dateStart.getFullYear()} ref={(el) => (sectionWorksRef.current[i] = el)}>
+                <li
+                  key={"work-" + i}
+                  className="py-12"
+                  data-year={w.dateStart.getFullYear()}
+                  ref={(el) => (sectionWorksRef.current[i] = el)}
+                >
                   <article>
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-top xl:space-y-0 pr-7">
                       <div>
@@ -259,6 +265,10 @@ export default function SectionWorks() {
                             href={w.companyLink}
                             target="_blank"
                           >
+                            <ArrowTopRightOnSquareIcon
+                              className="inline-block mr-2 align-text-top"
+                              width={18}
+                            />
                             {t("read-more")} →
                           </a>
                         </div>

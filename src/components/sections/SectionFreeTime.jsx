@@ -3,6 +3,7 @@ import MapboxWidget from "../Mapbox";
 import "./SectionFreetime.css";
 import { useRef } from "react";
 import LazyImage from "../LazyImage";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export default function SectionFreetime() {
   const { t } = useTranslation();
@@ -50,6 +51,7 @@ export default function SectionFreetime() {
               href="https://www.morgantiweb.com/3dmap/index.html"
               target="_blank"
             >
+              <ArrowTopRightOnSquareIcon className="inline-block mr-2 align-text-top" width={18} />
               {t("read-more")} →
             </a>
           </div>
@@ -90,6 +92,7 @@ export default function SectionFreetime() {
               href="https://www.ofcn15.com/"
               target="_blank"
             >
+              <ArrowTopRightOnSquareIcon className="inline-block mr-2 align-text-top" width={18} />
               {t("read-more")} →
             </a>
           </div>

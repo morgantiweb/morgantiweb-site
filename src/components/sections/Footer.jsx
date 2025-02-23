@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 import waimg from "../../assets/images/whatsapp.png";
 import SocialIcon from "../SocialIcon";
 import { CookiePolicy } from "./CookiePolicy";
@@ -56,7 +56,9 @@ export default function Footer() {
           <div className="skill-intro mb-8">
             <strong>{t("about-this-site")}</strong><br/>
             <p className="skill-intro mb-8">{t("about-this-site-intro")}</p>
-            <a className="link" href="https://github.com/morgantiweb/morgantiweb-site" target="_blank" rel="noreferrer">{t("source-code")}</a>
+            <a className="link" href="https://github.com/morgantiweb/morgantiweb-site" target="_blank" rel="noreferrer">
+            <ArrowTopRightOnSquareIcon className="inline-block mr-2 align-text-bottom" width={16} />
+            {t("source-code")}</a>
           </div>
         </div>
         <p className="text-sm text-zinc-400 dark:text-zinc-500">
