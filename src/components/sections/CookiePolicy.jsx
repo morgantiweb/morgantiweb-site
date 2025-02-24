@@ -1,6 +1,13 @@
 export function CookiePolicy() {
+  const encodedEmail = "aW5mb0Btb3JnYW50aXdlYi5jb20=";
+
+  const Contact = () => {
+    const email = atob(encodedEmail);
+    return <a className="link" href={`mailto:${email}`}>{email}</a>;
+  }
+
   return (
-    <div className="text-gray-600 dark:text-gray-400">
+    <div className="cookie-content text-gray-600 dark:text-gray-400">
       <p>
         Questo documento contiene informazioni in merito alle tecnologie che
         consentono a questo Sito Web di raggiungere gli scopi descritti di
@@ -351,7 +358,7 @@ export function CookiePolicy() {
         <br />
         40035 Castiglione dei Pepoli (BO)
       </p>
-      <p>Indirizzo email del Titolare: info@morgantiweb.com</p>
+      <p>Indirizzo email del Titolare: <Contact /></p>
       <p>
         Dal momento che l'uso di Strumenti di Tracciamento di terza parte su
         questo Sito Web non può essere completamente controllato dal Titolare,

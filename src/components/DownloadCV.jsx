@@ -1,5 +1,3 @@
-// ../assets/docs/CV-LucaMorganti-2024-EN.pdf
-
 import { useTranslation } from "react-i18next";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 
@@ -7,7 +5,7 @@ export default function DownloadCV(props) {
   const { t } = useTranslation();
 
   const handleDownloadClick = () => {
-    window.open("/docs/CV-LucaMorganti-2024-EN.pdf", "_blank");
+    window.open("/docs/CV-Luca Morganti-2025.pdf", "_blank");
   };
 
   return (
