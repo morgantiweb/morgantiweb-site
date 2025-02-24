@@ -1,8 +1,44 @@
-# React + Vite
+# Luca Morganti
+## Full Stack Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://bit.ly/lucamorganti
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a personal website for Luca Morganti, a Full Stack Developer. The website showcases Luca's portfolio, skills, and contact information. It is built using modern web technologies to ensure a responsive and user-friendly experience.
+
+## Features
+
+- Portfolio showcasing projects
+- Skills and expertise
+- Contact information
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/morgantiweb-site.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd morgantiweb-site
+    ```
+3. Install dependencies:
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+4. Start the development server:
+    ```bash
+    npm start
+    ```
+
+## License
+
+This project is licensed under the MIT License.
