@@ -5,7 +5,7 @@ export default function DownloadCV(props) {
   const { t } = useTranslation();
 
   const handleDownloadClick = () => {
-    window.open("/docs/CV-Luca Morganti-2025.pdf", "_blank");
+    window.open("/docs/CV-Luca Morganti-202511.pdf", "_blank");
   };
 
   return (

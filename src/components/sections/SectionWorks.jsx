@@ -5,8 +5,26 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const works = [
   {
-    dateStart: new Date("06/01/2022"),
+    dateStart: new Date("05/01/2025"),
     dateEnd: null,
+    companyLogo: "cgn-logo.jpg",
+    companyName: "Servizi CGN srl Società Benefit",
+    title: "cgn-jobtitle",
+    description: "cgn-jobdesc",
+    tecnologies: [
+      ".NET",
+      "React",
+      "Redux",
+      "Jest",
+      "SCSS",
+      "Figma",
+      "MS SQL Server",
+    ],
+    companyLink: "https://www.cgn.it/",
+  },
+  {
+    dateStart: new Date("06/01/2022"),
+    dateEnd: new Date("02/01/2025"),
     companyLogo: "deltatre-logo.jpeg",
     companyName: "Deltatre Spa",
     title: "deltatre-jobtitle",
@@ -230,7 +248,7 @@ export default function SectionWorks() {
                                 month: "long",
                               })}
                             </time>
-                            -
+                            {' '}-{' '}
                             {w.dateEnd ? (
                               <time dateTime={w.dateStart.toISOString()}>
                                 {w.dateEnd.toLocaleDateString(i18n.language, {

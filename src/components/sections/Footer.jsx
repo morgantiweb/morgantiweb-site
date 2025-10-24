@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Footer() {
   const { i18n, t } = useTranslation();
   const encodedEmail = "bW9yZ2FudGk3OEBnbWFpbC5jb20=";
-  const lastUpdate = new Date("02/23/2025");
+  const lastUpdate = new Date("10/24/2025");
   const [isOpen, setIsOpen] = useState(false);
 
   const openPopup = (event) => {
